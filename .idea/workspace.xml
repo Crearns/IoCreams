@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5259d0-df2e-4e70-aaba-a26df6f25887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2-api-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-iostreams-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-jcl-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-jul-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-nosql-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-taglib-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-web-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/BeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/AbstractResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/DefaultResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/FileSystemResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/FileSystemResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/ResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/support/EncodedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/test/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/util/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoCreams.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IoCreams.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="351">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.properties">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -141,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/resource/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/test.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java" />
       </list>
     </option>
   </component>
@@ -220,7 +194,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556709137273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556724791165" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -278,12 +252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556546628452</updated>
       <workItem from="1556546630806" duration="60000" />
-      <workItem from="1556695728324" duration="13070000" />
+      <workItem from="1556695728324" duration="13075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13130000" />
+    <option name="totallyTimeSpent" value="13135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="6" />
@@ -562,18 +536,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/reader/PropertiesBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="351">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
