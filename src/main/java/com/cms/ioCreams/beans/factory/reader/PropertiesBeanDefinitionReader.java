@@ -78,13 +78,7 @@ public class PropertiesBeanDefinitionReader implements BeanDefinitionReader {
 
     }
 
-    private int doLoadBeanDefinitions(InputSource inputSource, Resource resource){
-        logger.info("解析成 Document 对象");
-
-    }
-
-    private int registerBeanDefinitions(Document doc, Resource resource) {
-    }
+ 
 
 
 }
