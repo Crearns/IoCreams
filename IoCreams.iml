@@ -5,12 +5,19 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
+=======
+>>>>>>> e25fdd567dfb6c3d2856522ffbba2ba102f8e613
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
+<<<<<<< HEAD
       <library>
+=======
+      <library name="log4j">
+>>>>>>> e25fdd567dfb6c3d2856522ffbba2ba102f8e613
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
         </CLASSES>
