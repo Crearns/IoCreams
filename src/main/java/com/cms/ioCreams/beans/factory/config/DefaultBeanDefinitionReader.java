@@ -1,4 +1,4 @@
-package com.cms.ioCreams.beans.factory.reader;
+package com.cms.ioCreams.beans.factory.config;
 
 import com.cms.ioCreams.core.io.Resource;
 import com.cms.ioCreams.core.io.ResourceLoader;
@@ -12,9 +12,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-public class PropertiesBeanDefinitionReader implements BeanDefinitionReader {
+public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
 
-    Logger logger = Logger.getLogger(PropertiesBeanDefinitionReader.class);
+    Logger logger = Logger.getLogger(DefaultBeanDefinitionReader.class);
 
     private final ThreadLocal<Set<EncodedResource>> resourcesCurrentlyBeingLoaded = new ThreadLocal<>();
 
@@ -78,7 +78,14 @@ public class PropertiesBeanDefinitionReader implements BeanDefinitionReader {
 
     }
 
- 
+    private int doLoadBeanDefinitions(InputSource inputSource, Resource resource){
+        return 0;
+
+    }
+
+    private int registerBeanDefinitions(Document doc, Resource resource) {
+        return 0;
+    }
 
 
 }

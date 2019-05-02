@@ -34,7 +34,7 @@ public class Test {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        File file = new File("test.properties");
+        File file = new File("test.txt");
         try {
             System.out.println(file.getAbsolutePath());
             InputStream inputStream = new FileInputStream(file);

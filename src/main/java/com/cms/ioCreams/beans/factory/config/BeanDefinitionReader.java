@@ -1,4 +1,4 @@
-package com.cms.ioCreams.beans.factory.reader;
+package com.cms.ioCreams.beans.factory.config;
 
 import com.cms.ioCreams.core.io.Resource;
 import com.cms.ioCreams.core.io.ResourceLoader;
