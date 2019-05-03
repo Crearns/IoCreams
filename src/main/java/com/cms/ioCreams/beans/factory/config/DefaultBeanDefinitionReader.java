@@ -1,5 +1,6 @@
 package com.cms.ioCreams.beans.factory.config;
 
+import com.cms.ioCreams.beans.factory.xml.BeanDefinitionReader;
 import com.cms.ioCreams.core.io.Resource;
 import com.cms.ioCreams.core.io.ResourceLoader;
 import com.cms.ioCreams.core.io.support.EncodedResource;
@@ -9,6 +10,7 @@ import org.xml.sax.InputSource;
 
 import java.io.InputStream;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 
@@ -18,16 +20,14 @@ public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
 
     private final ThreadLocal<Set<EncodedResource>> resourcesCurrentlyBeingLoaded = new ThreadLocal<>();
 
-
-
     @Override
     public ResourceLoader getResourceLoader() {
         return null;
     }
 
     @Override
-    public int loadBeanDefinitions(Resource resource) throws Exception {
-        return loadBeanDefinitions(new EncodedResource(resource));
+    public Map<String, BeanDefintion> loadBeanDefinitions(Resource resource) throws Exception {
+        return null;
     }
 
     @Override
@@ -44,6 +44,8 @@ public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
     public int loadBeanDefinitions(String... locations) {
         return 0;
     }
+
+
 
     public int loadBeanDefinitions(EncodedResource encodedResource) throws Exception {
         logger.info("加载 BeanDefinition");

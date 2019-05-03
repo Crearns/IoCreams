@@ -34,11 +34,9 @@ public class Test {
         } catch (IOException e) {
             e.printStackTrace();
         }
-<<<<<<< HEAD
-        File file = new File("test.txt");
-=======
-        File file = new File("test.properties");
->>>>>>> e25fdd567dfb6c3d2856522ffbba2ba102f8e613
+
+        File file = new File("/Users/creams/Desktop/test.txt");
+
         try {
             System.out.println(file.getAbsolutePath());
             InputStream inputStream = new FileInputStream(file);

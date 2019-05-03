@@ -1,6 +1,7 @@
 package com.cms.ioCreams.beans.factory.config;
 
 import com.cms.ioCreams.beans.MutablePropertyValues;
+import com.cms.ioCreams.beans.PropertyValue;
 
 public interface BeanDefintion {
 
@@ -8,11 +9,15 @@ public interface BeanDefintion {
 
     static final String SCOPE_PROTOTYPE = "prototype";
 
-    void setBeanClassName(String beanClassName);
+    void setClassName(String beanClassName);
 
-    String getBeanClassName();
+    String getClassName();
 
-    void setScope();
+    void setScope(String scope);
+
+    String getBeanName();
+
+    void setBeanName(String beanName);
 
     String getScope();
 
@@ -23,5 +28,9 @@ public interface BeanDefintion {
     boolean hasPropertyValues();
 
     MutablePropertyValues getPropertyValues();
+
+    void setPropertyValues(MutablePropertyValues propertyValues);
+
+    void addProperty(PropertyValue pv);
 
 }

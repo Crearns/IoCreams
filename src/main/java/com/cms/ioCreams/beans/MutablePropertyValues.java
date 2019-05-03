@@ -1,5 +1,7 @@
 package com.cms.ioCreams.beans;
 
+import com.sun.istack.internal.Nullable;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -30,8 +32,8 @@ public class MutablePropertyValues implements PropertyValues {
         }
     }
 
-    public MutablePropertyValues add(String propertyName, Object propertyValue) {
-        addPropertyValue(new PropertyValue(propertyName, propertyValue));
+    public MutablePropertyValues add(String propertyName, String propertyValue, String ref) {
+        addPropertyValue(new PropertyValue(propertyName, propertyValue, ref));
         return this;
     }
 
@@ -52,18 +54,6 @@ public class MutablePropertyValues implements PropertyValues {
     }
 
 
-    public MutablePropertyValues(Map<?, ?> original) {
-        // We can optimize this because it's all new:
-        // There is no replacement of existing property values.
-        if (original != null) {
-            this.propertyValueList = new ArrayList<>(original.size());
-            original.forEach((attrName, attrValue) -> this.propertyValueList.add(
-                    new PropertyValue(attrName.toString(), attrValue)));
-        }
-        else {
-            this.propertyValueList = new ArrayList<>(0);
-        }
-    }
 
     public MutablePropertyValues(List<PropertyValue> propertyValueList) {
         this.propertyValueList =
@@ -73,7 +63,6 @@ public class MutablePropertyValues implements PropertyValues {
     public List<PropertyValue> getPropertyValueList() {
         return this.propertyValueList;
     }
-
 
 
     @Override
@@ -103,4 +92,12 @@ public class MutablePropertyValues implements PropertyValues {
         return this.propertyValueList.isEmpty();
     }
 
+    @Override
+    public String toString() {
+        StringBuffer stringBuffer = new StringBuffer();
+        for (PropertyValue propertyValue : this.propertyValueList) {
+            stringBuffer.append(propertyValue.toString() + "--");
+        }
+        return stringBuffer.toString();
+    }
 }
