@@ -11,117 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/support/ClassPathXmlBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="101" column="73" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="101" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1930">
-                <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-                <folding>
-                  <element signature="e#173#174#0" expanded="true" />
-                  <element signature="e#119#120#0" expanded="true" />
-                  <element signature="e#146#147#0" expanded="true" />
-                  <element signature="e#185#186#0" expanded="true" />
-                  <element signature="e#217#218#0" expanded="true" />
-                  <element signature="e#249#250#0" expanded="true" />
-                  <element signature="e#273#274#0" expanded="true" />
-                  <element signature="e#306#307#0" expanded="true" />
-                  <element signature="e#332#333#0" expanded="true" />
-                  <element signature="e#354#355#0" expanded="true" />
-                  <element signature="e#378#379#0" expanded="true" />
-                  <element signature="e#406#407#0" expanded="true" />
-                  <element signature="e#432#433#0" expanded="true" />
-                  <element signature="e#91#92#0" expanded="true" />
-                  <element signature="e#118#119#0" expanded="true" />
-                  <element signature="e#157#158#0" expanded="true" />
-                  <element signature="e#189#190#0" expanded="true" />
-                  <element signature="e#215#216#0" expanded="true" />
-                  <element signature="e#241#242#0" expanded="true" />
-                  <element signature="e#275#276#0" expanded="true" />
-                  <element signature="e#305#306#0" expanded="true" />
-                </folding>
+              <first_editor>
+                <caret column="10" selection-start-column="10" selection-end-column="10" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/xml/BeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="24" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beanfactory.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/core/io/FileSystemResourceLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/xml/DefaultBeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -190,167 +87,13 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-beanutils-1.8.2.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-beanutils-1.8.2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-beanutils-1.8.2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-beanutils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-logging.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-logging.jar" type="ab9368bb:PsiFileNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-logging.jar" type="ab9368bb:PsiFileNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556961666507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556962239517" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -443,12 +186,12 @@
       <workItem from="1556951421500" duration="2723000" />
       <workItem from="1556954371727" duration="3126000" />
       <workItem from="1556957712356" duration="1420000" />
-      <workItem from="1556959274145" duration="2358000" />
+      <workItem from="1556959274145" duration="2899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22159000" />
+    <option name="totallyTimeSpent" value="22700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="0" />
@@ -793,31 +536,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1930">
-            <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            <folding>
-              <element signature="e#173#174#0" expanded="true" />
-              <element signature="e#119#120#0" expanded="true" />
-              <element signature="e#146#147#0" expanded="true" />
-              <element signature="e#185#186#0" expanded="true" />
-              <element signature="e#217#218#0" expanded="true" />
-              <element signature="e#249#250#0" expanded="true" />
-              <element signature="e#273#274#0" expanded="true" />
-              <element signature="e#306#307#0" expanded="true" />
-              <element signature="e#332#333#0" expanded="true" />
-              <element signature="e#354#355#0" expanded="true" />
-              <element signature="e#378#379#0" expanded="true" />
-              <element signature="e#406#407#0" expanded="true" />
-              <element signature="e#432#433#0" expanded="true" />
-              <element signature="e#91#92#0" expanded="true" />
-              <element signature="e#118#119#0" expanded="true" />
-              <element signature="e#157#158#0" expanded="true" />
-              <element signature="e#189#190#0" expanded="true" />
-              <element signature="e#215#216#0" expanded="true" />
-              <element signature="e#241#242#0" expanded="true" />
-              <element signature="e#275#276#0" expanded="true" />
-              <element signature="e#305#306#0" expanded="true" />
-            </folding>
+          <first_editor>
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
