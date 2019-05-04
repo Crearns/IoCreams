@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c44275a-f441-4cbe-ba0b-23278490a39f" name="Default Changelist" comment="" />
+    <list default="true" id="6c44275a-f441-4cbe-ba0b-23278490a39f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,30 @@
             <state split_layout="SPLIT">
               <first_editor>
                 <caret column="10" selection-start-column="10" selection-end-column="10" />
+                <folding>
+                  <element signature="e#81#82#0" expanded="true" />
+                  <element signature="e#173#174#0" expanded="true" />
+                  <element signature="e#119#120#0" expanded="true" />
+                  <element signature="e#146#147#0" expanded="true" />
+                  <element signature="e#185#186#0" expanded="true" />
+                  <element signature="e#217#218#0" expanded="true" />
+                  <element signature="e#249#250#0" expanded="true" />
+                  <element signature="e#273#274#0" expanded="true" />
+                  <element signature="e#306#307#0" expanded="true" />
+                  <element signature="e#332#333#0" expanded="true" />
+                  <element signature="e#354#355#0" expanded="true" />
+                  <element signature="e#378#379#0" expanded="true" />
+                  <element signature="e#406#407#0" expanded="true" />
+                  <element signature="e#432#433#0" expanded="true" />
+                  <element signature="e#91#92#0" expanded="true" />
+                  <element signature="e#118#119#0" expanded="true" />
+                  <element signature="e#157#158#0" expanded="true" />
+                  <element signature="e#189#190#0" expanded="true" />
+                  <element signature="e#215#216#0" expanded="true" />
+                  <element signature="e#241#242#0" expanded="true" />
+                  <element signature="e#275#276#0" expanded="true" />
+                  <element signature="e#305#306#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -87,13 +113,34 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IoCreams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoCreams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556962239517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556962358476" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -186,12 +233,12 @@
       <workItem from="1556951421500" duration="2723000" />
       <workItem from="1556954371727" duration="3126000" />
       <workItem from="1556957712356" duration="1420000" />
-      <workItem from="1556959274145" duration="2899000" />
+      <workItem from="1556959274145" duration="3116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22700000" />
+    <option name="totallyTimeSpent" value="22917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="0" />
@@ -201,11 +248,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27106228" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32988507" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -255,9 +302,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/test.log">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/config/DocResolver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cms/ioCreams/beans/factory/config/DefaultDocResolver.java" />
@@ -533,11 +577,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
             <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <folding>
+              <element signature="e#81#82#0" expanded="true" />
+              <element signature="e#173#174#0" expanded="true" />
+              <element signature="e#119#120#0" expanded="true" />
+              <element signature="e#146#147#0" expanded="true" />
+              <element signature="e#185#186#0" expanded="true" />
+              <element signature="e#217#218#0" expanded="true" />
+              <element signature="e#249#250#0" expanded="true" />
+              <element signature="e#273#274#0" expanded="true" />
+              <element signature="e#306#307#0" expanded="true" />
+              <element signature="e#332#333#0" expanded="true" />
+              <element signature="e#354#355#0" expanded="true" />
+              <element signature="e#378#379#0" expanded="true" />
+              <element signature="e#406#407#0" expanded="true" />
+              <element signature="e#432#433#0" expanded="true" />
+              <element signature="e#91#92#0" expanded="true" />
+              <element signature="e#118#119#0" expanded="true" />
+              <element signature="e#157#158#0" expanded="true" />
+              <element signature="e#189#190#0" expanded="true" />
+              <element signature="e#215#216#0" expanded="true" />
+              <element signature="e#241#242#0" expanded="true" />
+              <element signature="e#275#276#0" expanded="true" />
+              <element signature="e#305#306#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
