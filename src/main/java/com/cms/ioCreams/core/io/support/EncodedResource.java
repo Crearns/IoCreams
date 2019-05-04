@@ -1,12 +1,15 @@
 package com.cms.ioCreams.core.io.support;
 
+import com.cms.ioCreams.core.io.FileSystemResource;
+import com.cms.ioCreams.core.io.InputStreamResource;
 import com.cms.ioCreams.core.io.Resource;
+import org.xml.sax.InputSource;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 
-public class EncodedResource {
+public class EncodedResource implements InputStreamResource {
 
     private final Resource resource;
 

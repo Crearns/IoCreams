@@ -25,15 +25,15 @@ public class PropertyValue {
     }
 
     public String getName() {
-        return this.name != null ? name : "";
+        return name;
     }
 
     public String getValue() {
-        return this.value != null ? value : "";
+        return value;
     }
 
     public String getRef() {
-        return this.ref != null ? ref : "";
+        return ref;
     }
 
     public void setName(String name) {

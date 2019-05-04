@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public interface Resource {
+public interface Resource extends InputStreamResource {
 
     /**
      * 资源是否存在

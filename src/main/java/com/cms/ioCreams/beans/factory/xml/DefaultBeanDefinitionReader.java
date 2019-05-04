@@ -1,17 +1,18 @@
-package com.cms.ioCreams.beans.factory.config;
+package com.cms.ioCreams.beans.factory.xml;
 
-import com.cms.ioCreams.beans.factory.xml.BeanDefinitionReader;
+import com.cms.ioCreams.beans.factory.config.BeanDefintion;
+import com.cms.ioCreams.beans.factory.config.DefaultBeanDefinition;
 import com.cms.ioCreams.core.io.Resource;
 import com.cms.ioCreams.core.io.ResourceLoader;
 import com.cms.ioCreams.core.io.support.EncodedResource;
 import org.apache.log4j.Logger;
-import org.w3c.dom.Document;
+import org.dom4j.Document;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
 import org.xml.sax.InputSource;
 
 import java.io.InputStream;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 
 public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
@@ -25,29 +26,10 @@ public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
         return null;
     }
 
-    @Override
-    public Map<String, BeanDefintion> loadBeanDefinitions(Resource resource) throws Exception {
-        return null;
-    }
+
 
     @Override
-    public int loadBeanDefinitions(Resource... resources) {
-        return 0;
-    }
-
-    @Override
-    public int loadBeanDefinitions(String location) {
-        return 0;
-    }
-
-    @Override
-    public int loadBeanDefinitions(String... locations) {
-        return 0;
-    }
-
-
-
-    public int loadBeanDefinitions(EncodedResource encodedResource) throws Exception {
+    public Map<String, BeanDefintion> loadBeanDefinitions(EncodedResource encodedResource) throws Exception {
         logger.info("加载 BeanDefinition");
         Set<EncodedResource> currentResources = this.resourcesCurrentlyBeingLoaded.get();
         if (currentResources == null) {
@@ -67,7 +49,7 @@ public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
                     inputSource.setEncoding(encodedResource.getEncoding());
                 }
                 // 执行加载 BeanDefinition
-                return doLoadBeanDefinitions(inputSource, encodedResource.getResource());
+                return doLoadBeanDefinitions(encodedResource.getResource());
             } finally {
                 inputStream.close();
             }
@@ -80,13 +62,33 @@ public class DefaultBeanDefinitionReader implements BeanDefinitionReader {
 
     }
 
-    private int doLoadBeanDefinitions(InputSource inputSource, Resource resource){
-        return 0;
+    public Map<String, BeanDefintion> doLoadBeanDefinitions (Resource resource){
 
-    }
+        Map<String, BeanDefintion> result = new HashMap<>();
 
-    private int registerBeanDefinitions(Document doc, Resource resource) {
-        return 0;
+        SAXReader reader = new SAXReader();
+
+        InputStream inputStream = null;
+
+        Document document = null;
+
+        try {
+            inputStream = resource.getInputStream();
+            document = reader.read(inputStream);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        logger.info("开始解析配置文件Bean标签");
+        String xpath = "//bean";
+        List<Element> beanNodes = document.selectNodes(xpath);
+        BeanDefinitionParserDelegate beanDefinitionParserDelegate = new BeanDefinitionParserDelegate();
+        for (Element ele : beanNodes) {
+            BeanDefintion bd = new DefaultBeanDefinition();
+            bd = beanDefinitionParserDelegate.beanDefintionAttributeParse(bd, ele);
+            logger.info("bean " + bd.getBeanName() + "注册成功");
+            result.put(bd.getBeanName(), bd);
+        }
+        return result;
     }
 
 

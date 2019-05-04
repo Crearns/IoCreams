@@ -2,6 +2,7 @@ package com.cms.ioCreams.beans.factory.xml;
 
 import com.cms.ioCreams.beans.PropertyValue;
 import com.cms.ioCreams.beans.factory.config.BeanDefintion;
+import org.apache.log4j.Logger;
 import org.dom4j.Element;
 
 import java.util.List;
@@ -11,7 +12,7 @@ import static com.cms.ioCreams.beans.factory.config.BeanDefintion.SCOPE_SINGLETO
 
 public class BeanDefinitionParserDelegate {
 
-
+    Logger logger = Logger.getLogger(BeanDefinitionParserDelegate.class);
 
     public static final String AUTOWIRE_BY_NAME_VALUE = "byName";
 
@@ -48,7 +49,6 @@ public class BeanDefinitionParserDelegate {
 
 
     public BeanDefintion beanDefintionAttributeParse(BeanDefintion bd, Element ele){
-        bd.setBeanName(ele.attributeValue("name"));
         nameParse(bd,ele);
         classParse(bd, ele);
         scopeParse(bd, ele);
@@ -58,13 +58,16 @@ public class BeanDefinitionParserDelegate {
 
     public void nameParse(BeanDefintion bd, Element ele){
         bd.setBeanName(ele.attributeValue(NAME_ATTRIBUTE));
+        logger.info(bd.getBeanName() + "的BeanName解析");
     }
 
     public void classParse(BeanDefintion bd, Element ele){
+        logger.info(bd.getBeanName() + "的class属性解析");
         bd.setClassName(ele.attributeValue(CLASS_ATTRIBUTE));
     }
 
     public void scopeParse(BeanDefintion bd, Element ele){
+        logger.info(bd.getBeanName() + "的scope属性解析");
         String scope = ele.attributeValue(SCOPE_ATTRIBUTE);
         if (scope == null)
             scope = SCOPE_SINGLETON;
@@ -72,6 +75,7 @@ public class BeanDefinitionParserDelegate {
     }
 
     public void propertyParse(BeanDefintion bd, Element ele){
+        logger.info(bd.getBeanName() + "的property属性解析");
         List<Element> propNodes = ele.elements(PROPERTY_ELEMENT);
         if (propNodes != null){
             for (Element prop : propNodes) {

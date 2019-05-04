@@ -86,8 +86,5 @@ public abstract class AbstractResource implements Resource {
                 (obj instanceof Resource && ((Resource) obj).getDescription().equals(getDescription())));
     }
 
-    @Override
-    public int hashCode() {
-        return getDescription().hashCode();
-    }
+
 }
